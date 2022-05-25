@@ -1,0 +1,10 @@
+//Crear un programa que pida al usuario ingresar, por separado, la calle, el número, el departamento, el código postal, la ciudad y el país, y muestre un mensaje con toda la dirección completa, p.ej.: "La dirección que ha ingresado es: Calle Falsa 123 3C, 1414, CABA, Argentina".
+
+const calle = prompt('Ingresa el nombre de tu calle')
+const numero = prompt('numero')
+const departamento = prompt('departamento')
+const codigoPostal = prompt('codigoPostal')
+const ciudad = prompt('ciudad')
+const pais = prompt('pais')
+
+alert (`La dirección que ha ingresado es: calle ${calle} ${numero}, dpto. ${departamento}, CP ${codigoPostal}, ${ciudad}, ${pais}`)
