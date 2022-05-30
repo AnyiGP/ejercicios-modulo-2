@@ -4,7 +4,7 @@ const numeroDePartida = prompt('Ingresa un numero de partida')
 let incremento = prompt('Ingresa la cantidad que quieres incrementar')
 
 let mensajeUno = alert (`Mensaje 1 Total ${Number(numeroDePartida) + Number(incremento)}`)
-
+//probar de asignar el valor con += para escribir meno codigo
 let mensajeDos = alert (`Mensaje 2 Total ${Number(numeroDePartida) + Number(incremento * 2)}`)
 
 let mensajeTres = alert (`Mensaje 3 Total ${Number(numeroDePartida) + Number(incremento * 3)}`)
