@@ -6,11 +6,16 @@ const escalaDuracion1 = prompt('Ingresa el tiempo del vuelo en minutos')
 const escala2 = prompt('Ingresa siguiente destino del vuelo')
 const escalaDuracion2 = prompt('Ingresa el tiempo del vuelo en minutos')
 
-const escala3 = prompt('Ingresa el ultimo desino de tu vielo')
+const escala3 = prompt('Ingresa el ultimo desino de tu vuelo')
 const escalaDuracion3 = prompt('Ingresa el tiempo del vuelo en minutos')
 
 const duracionTotal = (Number(escalaDuracion3) + Number(escalaDuracion2) + Number(escalaDuracion1))
 
-alert (`Destino 1: ${escala1}, duracion ${escalaDuracion1} minutos. Destino 2: ${escala2}, duracion ${escalaDuracion2} minutos. Destino 3: ${escala3}, duracion ${escalaDuracion3} minutos. Duracion total del viaje ${duracionTotal} minutos`)
+alert (`Destino 1: ${escala1}, duracion ${escalaDuracion1} minutos. 
+Destino 2: ${escala2}, duracion ${escalaDuracion2} minutos. 
+Destino 3: ${escala3}, duracion ${escalaDuracion3} minutos. 
+Duracion total del viaje ${duracionTotal} minutos`)
+
+
 
 
